@@ -1,5 +1,5 @@
 import axios from 'axios';
-const api = 'http://45.178.182.17:3009'
+const api = 'http://45.35.104.131:3009'
 
 export const getUsers = async () => {
     const response = await axios.get(`${api}/users`)
